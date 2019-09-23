@@ -1,12 +1,13 @@
 function getTime() {
     let request = new XMLHttpRequest();
 
-    request.open("GET", "http://worldclockapi.com/api/json/utc/now");
+    request.open("GET", "//worldtimeapi.org/api/timezone/Europe/London.json");
 
     request.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
+            console.log('response:', this.responseText)
             const resp = JSON.parse(this.responseText);
-            const timeText = resp.currentDateTime;
+            const timeText = resp.utc_datetime;
             console.log(timeText);
             changeUtc(timeText);
         }
