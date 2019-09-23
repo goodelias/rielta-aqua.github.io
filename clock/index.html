@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Home Page</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="clock">
+    <div id="time">--:-- </div>
+    <div id="date">[       ] </div>
+
+    <label> City
+        <select id="timezone" onchange="changeTimezone()">
+            <option value="Europe/Moscow">Saint Petersburg</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+        </select>
+    </label>
+    <div>
+        <label>24<input id="format24" type="radio" name="format" value="24" onchange="changeFormat()"></label>
+        <label>12<input id="format12" type="radio" name="format" value="12" onchange="changeFormat()"></label>
+    </div>
+
+</div>
+</body>
+</html>
