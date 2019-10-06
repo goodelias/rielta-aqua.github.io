@@ -1,0 +1,406 @@
+a, h1, h2, p, dl, ol, ul {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
+    color: #74757b;
+}
+
+h2 {
+    max-width: 550px;
+}
+
+p {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+
+.link {
+    color: #0da088;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.container {
+    max-width: 1024px;
+    padding: 0;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    position: relative;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    padding: 36px 0;
+    overflow: hidden;
+}
+
+.header .gradient-element {
+    border-radius: 50%;
+    position: absolute;
+    width: 800px;
+    height: 220px;
+    transform: rotate(-15deg);
+    top: -100px;
+    left: -130px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    background: rgb(75,159,180);
+    background: linear-gradient(94deg, rgba(75,159,180,1) 0%, rgba(50,223,206,1) 100%);
+}
+
+.nav-btn {
+    display: none;
+}
+
+.nav-btn_line {
+    height: 5px;
+    background: #2cd3b8;
+    width: 57px;
+    margin-bottom: 13px;
+}
+
+.container-fluid {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.header a {
+    padding-right: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 0;
+}
+
+.header a.logo {
+    text-align: right;
+    max-width: 115px;
+    padding: 0;
+}
+
+.header a.logo img {
+    width: 114px;
+}
+
+.header a:hover {
+    text-decoration: none;
+}
+
+.header a:last-child {
+    padding-right: 0;
+}
+
+.header .left-menu a {
+    color: #393e6b;
+}
+
+.nav-block {
+    padding: 0;
+}
+
+.header .nav-right {
+    text-align: right;
+}
+
+.download-webim {
+    background-color: #eff4f4;
+    padding: 81px 0 68px 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #393e6b;
+}
+
+.download-webim p {
+    margin: 33px 0 57px 0;
+}
+
+a.btn {
+    color: #fff;
+    border-radius: 45px;
+    transition: all 0.2s;
+    padding: 13px 27px;
+    margin: 0 20px 0 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    min-width: 255px;
+}
+
+a.btn-green {
+    background: #2cd3b8;
+}
+
+a.btn-green:hover {
+    background-color: #393e6b;
+    color: #fff;
+}
+
+a.btn-empty {
+    color: #393e6b;
+    border: 1px solid #393e6b;
+}
+
+a.btn-empty:hover {
+    background-color: #393e6b;
+    color: #fff;
+}
+
+.easy-installation {
+    padding: 75px 0 92px 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #393e6b;
+}
+
+.easy-installation .row > div {
+    padding: 0 147px 0 0;
+    margin-bottom: 80px;
+}
+
+.easy-installation p {
+    margin: 18px 0 125px 0;
+}
+
+.easy-installation__img:before {
+    content: attr(data-counter);
+    position: absolute;
+    font-size: 150px;
+    font-weight: bolder;
+    font-family: 'ubuntu', sans-serif;
+    color: #e8e8ec;
+    z-index: -1;
+    top: -104px;
+    left: -50px;
+}
+
+.easy-installation__img {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.easy-installation a {
+    font-size: 18px;
+}
+
+.install-html {
+    background-color: #eff4f4;
+    padding: 87px 0 40px 0;
+}
+
+.install-html ul {
+    margin: 60px 0 0 0;
+    padding-left: 0;
+}
+
+.install-html li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #3b4269;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+
+.install-html li {
+    color: #3b4269;
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+}
+
+.install-html p {
+    margin: 10px 0 49px 0;
+}
+
+.install-app {
+    padding: 84px 0 0 0;
+}
+
+.install-app .subtext p {
+    margin: 30px 0 60px 0;
+}
+
+.install-app p {
+    margin: 10px 0 49px 0;
+}
+
+.install-app ul {
+    padding-left: 0;
+}
+
+.install-app li:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #3b4269;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+
+.install-app li {
+    color: #3b4269;
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+}
+
+.after-installation {
+    background-color: #eff4f4;
+    padding: 70px 0 70px 0;
+}
+
+.after-installation .subtext p {
+    margin: 20px 0 0 0;
+    color: #74757b;
+}
+
+.after-installation ul {
+    padding-left: 0;
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+.after-installation li {
+    list-style: none;
+    position: relative;
+    padding-left: 111px;
+    margin: 0 0 30px 0;
+    min-height: 74px;
+}
+
+.after-installation img {
+    height: 74px;
+    width: 74px;
+    position: absolute;
+    left: 0;
+}
+
+.list p {
+    font-size: 18px;
+    color: #393e6b;
+}
+
+.after-installation span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a.btn-blue {
+    background: #3b4269;
+    border: 1px #393e6b solid;
+}
+
+a.btn-blue:hover {
+    background-color: #eff4f4;
+    color: #393e6b;
+}
+
+.other-methods {
+    padding: 66px 0 60px 0;
+}
+
+.other-methods .row .col-lg-4 {
+    padding-left: 0;
+}
+
+.other-methods p {
+    margin-bottom: 48px;
+}
+
+.other-methods a {
+    margin-left: 29px;
+    font-size: 18px;
+}
+
+.other-methods .box {
+    min-height: 90px;
+}
+
+
+.footer {
+    padding-top: 55px;
+    padding-bottom: 67px;
+    background-color: #393e6b;
+    position: relative;
+}
+
+.footer p.text {
+    color: #bcc1c2;
+    font-size: 14px;
+}
+
+.footer-logo p.text {
+    margin-top: 15px;
+}
+
+.fa-phone:before {
+    content: "\f095";
+    background-color: #68cdbc;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.footer-num .table-row {
+    margin-top: 20px;
+}
+
+.footer-num i {
+    color: #393e6b;
+}
+
+.footer-num a.num {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-num a.num-1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer-right a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-right p {
+    margin: 10px 0 10px 0;
+}
+
+.footer-right i:before {
+    color: #adb0c2;
+    font-size: 22px;
+}
+
+.footer-right i {
+    margin-right: 15px;
+}
+
+.footer-right a:hover i:before{
+color: #fff;
+}
