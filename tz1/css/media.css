@@ -1,0 +1,26 @@
+@media (max-width: 991.98px) {
+    .logo {max-width: 240px; margin: 0 auto 20px;}
+}
+@media (max-width: 767.98px) {
+    a.button {max-width: 100%}
+    .reviews h2 {margin-bottom: 21px;}
+    .review .img-block {margin: 0 auto 10px;}
+    .review p.name {text-align: center;}
+    .review p.name:after {margin: 0 auto;}
+    .review p.rev {text-align: center;}
+}
+@media (max-width: 575.98px) {
+    .main {padding: 0}
+    .header {position: relative}
+    .logo {max-width: 140px; padding: 19px 0; margin: 15px auto;}
+    .nav-bar {position: absolute; top: 0; bottom: 0; margin: auto 0; height: 33px;}
+    .nav-btn_line { margin-bottom: 7px; height: 4px; width: 40px; background-color: #d24a43;}
+    .nav-btn_line:last-child {margin-bottom: unset;}
+    .navigation, .nav {padding: 0;}
+    .navigation { display: none; position: absolute; top: 90px; left: 0; width: 100%; z-index: 1; background-color: #fff; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);}
+    .nav a {width: 100%;}
+    .about {padding: 30px 62px 50px;}
+    .about h1 {font-size: 27px;}
+    .about h1:after {bottom: -15px;}
+    p {font-size: 14px;}
+}
