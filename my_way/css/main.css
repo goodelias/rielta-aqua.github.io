@@ -1,0 +1,287 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #201b2d
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+background: rgba(71,62,95,1);
+background: -moz-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,62,95,1)), color-stop(100%, rgba(42,34,64,1)));
+background: -webkit-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2a2240', GradientType=1 );
+padding-top: 100px;
+color: white;
+padding-bottom: 227px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 177px;
+	width: 490px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	color: #48ed8e;
+}
+
+.intro {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 380px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ed9619;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 206px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.btn:hover{
+	background: #c4790e;
+}
+
+.desktop {
+	margin-top: 71px;
+}
+
+.learn {
+	padding-top: 109px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.skill {
+	width: 350px;
+	background: url(../img/icon1.jpg) no-repeat left top;
+	padding-left: 100px;
+}
+
+.skill-title {
+	font-size: 18px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill-free {
+	width: 380px;
+	background: url(../img/icon2.jpg) no-repeat left top;
+}
+
+.skill-change {
+	background: url(../img/icon3.jpg) no-repeat left top;
+}
+
+.mail {
+	background: #efecf4;
+	padding-top: 177px;
+	padding-bottom: 196px;
+}
+
+.form {
+	margin-top: 45px;
+}
+
+.input {
+	width: 474px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 100px;
+	height: 57px;
+	padding-left: 37px;
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	margin-left: 13px;
+}
+
+.footer {
+	padding-top: 35px;
+	padding-bottom: 40px;
+	background: #201b2d;
+}
+
+.credits {
+	color: #d4cee3;
+	font-size: 14px;
+	margin: 0;
+}
+
+/*Responsive*/
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+
+	.container {
+		width: 960px;
+	}
+}
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+
+	.header {
+		padding-bottom: 140px;
+	}
+
+	.container {
+		width: 720px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.offer {
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.intro {
+		width: 100%;
+		margin-top: 20px;
+    margin-bottom: 30px;
+	}
+
+	.skills {
+		flex-direction: column;
+	}
+
+	.skill {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+/*576px - 768px*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.input {
+		margin-bottom: 15px;
+    	width: 100%;
+	}
+
+	.btn-form {
+		display: block;
+    	margin-left: 0;
+    	width: 100%;
+	}
+}
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+	.header {
+    	padding: 70px 0;
+	}
+
+	.container {
+		width: 90%;
+		text-align: center;
+	}
+
+	.logo {
+		margin: 0 auto;
+    	display: block;
+	}
+
+	.offer {
+    	margin-top: 50px;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.btn {
+		margin: 0 auto;
+	}
+
+	.section-title {
+		font-size: 25px;
+	}
+
+	.skill-title {
+		font-size: 20px;
+	}
+
+	.skill {
+		padding-left: 0;
+		background: url(../img/icon1.jpg) no-repeat center top;
+		padding-top: 90px;
+	}
+
+	.skill-free {
+		background: url(../img/icon2.jpg) no-repeat center top;
+	}
+
+	.skill-shange {
+		background: url(../img/icon3.jpg) no-repeat center top;
+	}
+
+	.learn {
+    	padding-top: 70px;
+    	padding-bottom: 30px;
+	}
+
+	.mail {
+		padding-top: 135px;
+    	padding-bottom: 145px;
+	}
+}
