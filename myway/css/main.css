@@ -4,6 +4,7 @@ body {
 	color: #201b2d
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
