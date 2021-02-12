@@ -162,6 +162,10 @@ padding-bottom: 227px;
 	margin: 0;
 }
 
+.animate__animated {
+	opacity: 0;
+}
+
 /*Responsive*/
 
 /*992px - 1200px*/
