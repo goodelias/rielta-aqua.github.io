@@ -4,11 +4,9 @@
 
 - [Introduction](#introduction)
 - [Demo](#demo)
-- [Features](#features)
 - [Technology](#technology)
-- [Database Models](#database)
+- [Features](#features)
 - [Run](#run)
-- [License](#license)
 
 ## Introduction
 
@@ -69,4 +67,4 @@ After you've set these environmental variables in the .env file at the root of t
 **Frontend**
 
 
-Now that the environmental variables are all set, you should run the two projects, the client and server together to run the application. Open frontend part and run in the console "npm init" to set up an existing npm package. Then run "npm start" to start the client.
+Now that the environmental variables are all set, and server is running you should run the client side too. the client and server together to run the application. Open frontend part and run in the console "npm init" to set up an existing npm package. Then run "npm start" to start the client.
