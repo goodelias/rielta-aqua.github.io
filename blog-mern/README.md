@@ -50,7 +50,7 @@ In addition to the above points, logged in users can do the following:
 
 ## Run
 
-To run this application (the master branch), first you have to clone the frontend part repository via this link [MERN-blog-frontend](https://github.com/goodelias/goodelias.github.io/tree/master/mern-blog-frontend). Since you have both parts of the project we can start set everything up to run the app.
+To run this application (the master branch), You have to run the client and server together. First you have to clone the frontend part repository via this link [MERN-blog-frontend](https://github.com/goodelias/goodelias.github.io/tree/master/mern-blog-frontend). Since you have both parts of the project we can start set everything up to run the app.
 
 **Backend**
 
@@ -66,5 +66,6 @@ After you've set these environmental variables in the .env file at the root of t
 
 **Frontend**
 
+Open frontend part and run in the console "npm init" to set up an existing npm package. Then run "npm start" to start the client.
 
-Now that the environmental variables are all set, and server is running you should run the client side too. the client and server together to run the application. Open frontend part and run in the console "npm init" to set up an existing npm package. Then run "npm start" to start the client.
+And now the application should start.
