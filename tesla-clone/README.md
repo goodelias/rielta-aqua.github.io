@@ -1,4 +1,4 @@
-# MERN-Blog
+# Tesla Clone
 
 ## Table of contents
 
